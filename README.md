@@ -14,15 +14,21 @@ Useful for custom workflows, keyboard shortcuts, status bars (e.g. Waybar), or s
 
 ## Installation
 
-### With pipx (recommended)
-
-[pipx](https://pypa.github.io/pipx/) installs the tool in an isolated environment and makes the `pomodoro` command available globally. No system build dependencies required — the package uses pure Python D-Bus bindings.
+### From PyPI
 
 ```bash
-pipx install .
+pipx install pomodoro-shell-cli
 ```
 
-From a Git repository:
+Or with pip:
+
+```bash
+pip install pomodoro-shell-cli
+```
+
+### With pipx (from Git)
+
+[pipx](https://pypa.github.io/pipx/) installs the tool in an isolated environment and makes the `pomodoro` command available globally. No system build dependencies required — the package uses pure Python D-Bus bindings.
 
 ```bash
 pipx install git+https://github.com/pablogventura/pomodoro-shell-cli.git
@@ -85,4 +91,4 @@ pomodoro
 
 ## License
 
-MIT
+GPL-3.0-or-later
