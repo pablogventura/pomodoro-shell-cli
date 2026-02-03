@@ -33,7 +33,7 @@ pipx install .
 From a Git repository:
 
 ```bash
-pipx install git+https://github.com/YOUR_USERNAME/pomodoro-deck.git
+pipx install git+https://github.com/pablogventura/pomodoro-deck.git
 ```
 
 ### From source
