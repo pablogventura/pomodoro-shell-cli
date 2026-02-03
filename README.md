@@ -16,15 +16,7 @@ Useful for custom workflows, keyboard shortcuts, status bars (e.g. Waybar), or s
 
 ### With pipx (recommended)
 
-[pipx](https://pypa.github.io/pipx/) installs the tool in an isolated environment and makes the `pomodoro` command available globally.
-
-**Build dependencies** (Debian/Ubuntu) — install these before `pipx install`:
-
-```bash
-sudo apt install libdbus-1-dev libgirepository1.0-dev libcairo2-dev pkg-config
-```
-
-Then install:
+[pipx](https://pypa.github.io/pipx/) installs the tool in an isolated environment and makes the `pomodoro` command available globally. No system build dependencies required — the package uses pure Python D-Bus bindings.
 
 ```bash
 pipx install .
@@ -42,7 +34,7 @@ pipx install git+https://github.com/pablogventura/pomodoro-shell-cli.git
 pip install -e .
 ```
 
-Note: Building requires the same system libraries as pipx (libdbus-1-dev, libgirepository1.0-dev, etc.). Alternatively, if your distro has `python3-dbus` and `python3-gi`, you can run without installing:
+Or run without installing (requires `pip install dbus-fast` first):
 
 ```bash
 python -m pomodoro_shell_cli start

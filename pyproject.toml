@@ -10,8 +10,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
 dependencies = [
-    "dbus-python",
-    "PyGObject",
+    "dbus-fast>=1.0.0",
 ]
 
 [project.scripts]
