@@ -22,7 +22,6 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Operating System :: POSIX :: Linux",
-    "Environment :: X11 Applications :: GNOME",
 ]
 [project.urls]
 Homepage = "https://github.com/pablogventura/pomodoro-shell-cli"
