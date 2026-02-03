@@ -1,2 +1,0 @@
-[console_scripts]
-pomodoro = pomodoro_shell_cli.cli:main
